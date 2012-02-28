@@ -22,7 +22,9 @@ public class ConexaoDAO {
     private ConexaoDados conexao;
     private PWSenha dct = new PWSenha();
 
-    public ConexaoDAO() { }
+    public ConexaoDAO() {
+
+    }
 
     public boolean atualizar(br.dastan.persistencia.ConexaoDados object) {
         try {
